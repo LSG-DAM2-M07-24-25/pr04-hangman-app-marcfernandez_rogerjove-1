@@ -5,6 +5,6 @@ class Fase_joc {
         val wordToGuess: String,
         val hiddenWord: String = "_ ".repeat(wordToGuess.length).trim(),
         val attemptsLeft: Int = 5,
-        val guessedLetters: List<Char> = emptyList()
+        val guessedLetters: List<Char> = emptyList() 
     )
 }
